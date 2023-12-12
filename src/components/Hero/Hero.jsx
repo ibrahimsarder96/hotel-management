@@ -2,7 +2,8 @@ import "./Hero.css";
 import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
-import banner from '../../assets/hero-image.png';
+// import banner from '../../assets/hero-image.png';
+
 const Hero = () => {
   return (
     <section className="hero-wrapper">
@@ -70,7 +71,7 @@ const Hero = () => {
             }}
             className="image-container"
           >
-            <img src={banner} alt="houses" />
+            <img src="hero-image.png" alt="houses" />
           </motion.div>
         </div>
       </div>

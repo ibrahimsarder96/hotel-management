@@ -7,7 +7,7 @@ import { sliderSettings } from "../../utils/common";
 import data from '../../../src/utils/slider.json'
 import PropertyCard from "../PropertyCard/PropertyCard";
 // import useProperties from "../../hooks/useProperties";
-// import {PuffLoader} from 'react-spinners'
+// import {PuffLoader} from 'react-spinners'  
 
 const Residencies = () => {
 
@@ -48,7 +48,6 @@ const Residencies = () => {
           {/* slider */}
           {data.slice(0, 8).map((card, i) => (
             <SwiperSlide key={i}>
-             
               <PropertyCard card={card}/>
             </SwiperSlide>
           ))}

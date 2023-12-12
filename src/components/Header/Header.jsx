@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import OutsideClickHandler from 'react-outside-click-handler';
-import logo from '../../assets/logo.png';
 import "./Header.css";
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -10,7 +9,7 @@ const Header = () => {
     <section className="h-wrapper" >
       <div className="flexCenter innerWidth paddings h-container">
         {/* logo */}
-        <img src={logo} alt="logo" width={100} />
+        <img src="./logo.png" alt="logo" width={100} />
 
         {/* menu */}
         {/* <OutsideClickHandler
